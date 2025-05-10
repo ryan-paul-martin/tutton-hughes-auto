@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html {
+  @apply bg-white dark:bg-gray-950;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /*background-color: #f0f2f5; /* Light gray background */
+  @apply bg-white dark:bg-gray-950;
+}
+
+.app-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 50px auto;
+}
