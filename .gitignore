@@ -1,8 +1,11 @@
 # Ignore node_modules
 node_modules/
 
-#ignore package-lock.json
+# Ignore package-lock.json
 package-lock.json
 
-#ignore vite.config.ts
+# Ignore package.json
+package.json
+
+# Ignore vite.config.ts
 vite.config.ts
